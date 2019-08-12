@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-section page-section-spacing swiper">
+    <swiper indicator-dots="true" indicator-active-color="#c81623" autoplay="false" interval="8000" duration="500">
+      <swiper-item wx:for="{{banner_list}}" wx:for-item="banner" wx:key="{{banner.banner_id}}">
+        <image class="banner-img" src="{{banner.banner_image}}" />
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="weui-flex">
+    <navigator url="/view/product/index?product_id={{idx}}" class="category-right-item weui-flex__item" wx:for="{{product_list}}" wx:for-item="product" wx:for-index="{{idx}}">
+      <image class="item-cover" src="{{product.cover}}" />
+      <view class="category-right-item-name">{{product.title}}</view>
+      <view class="category-right-item-price">￥{{product.price}}</view>
+    </navigator>
+  </view>
+</view>

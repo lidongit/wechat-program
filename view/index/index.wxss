@@ -1,0 +1,15 @@
+.container{
+  background: #F7F4F8;
+  
+}
+.weui-flex{
+  flex-wrap: wrap;
+}
+.category-right-item{
+  width: 50%;
+  background: #fff;
+}
+.banner-img{
+  object-fit: cover;
+  width: 100%;
+}
