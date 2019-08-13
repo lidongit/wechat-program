@@ -2,15 +2,18 @@
   <view class="page-section page-section-spacing swiper">
     <swiper indicator-dots="true" indicator-active-color="#c81623" autoplay="false" interval="8000" duration="500">
       <swiper-item wx:for="{{banner_list}}" wx:for-item="banner" wx:key="{{banner.banner_id}}">
-        <image class="banner-img" src="{{banner.banner_image}}" />
+        <image src="{{banner.banner_image}}" mode="aspectFill" />
       </swiper-item>
     </swiper>
   </view>
-  <view class="weui-flex">
-    <navigator url="/view/product/index?product_id={{idx}}" class="category-right-item weui-flex__item" wx:for="{{product_list}}" wx:for-item="product" wx:for-index="{{idx}}">
-      <image class="item-cover" src="{{product.cover}}" />
-      <view class="category-right-item-name">{{product.title}}</view>
-      <view class="category-right-item-price">￥{{product.price}}</view>
+  <view class="product-list clearfix">
+    <navigator url="/view/product/index?product_id={{idx}}" class="product-item" wx:for="{{product_list}}" wx:for-item="product" wx:for-index="{{idx}}">
+      <image class="item-cover" src="{{product.cover}}" mode="aspectFill" lazy-load="true" />
+      <text class="product-name text-overflow">{{product.title}}</text>
+      <view class="weui-flex product-price">
+        <text class="price">￥{{product.price}}</text>
+        <view class="iconfont icon-cart"></view>
+      </view>
     </navigator>
   </view>
 </view>

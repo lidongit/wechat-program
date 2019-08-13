@@ -1,9 +1,8 @@
 const constant = require("../../util/constant.js");
 const notification = require('../../util/notification.js');
 const storage = require("../../util/storage.js");
-const Quantity = require('../../component/quantity/index');
 
-Page(Object.assign({}, Quantity, {
+Page(Object.assign({}, {
     data: {
         color: constant.color,
         is_all: false,

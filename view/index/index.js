@@ -18,33 +18,33 @@ Page({
     product_list: [
       {
         title: '非吸收性外科缝针PF-1408',
-        price: 145,
+        price: 145.00,
         cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/5.png'
       },
       {
         title: '非吸收性外科缝针PF-147ds8',
-        price: 1459,
-        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/53.png'
+        price: 1459.00,
+        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/52.png'
       },
       {
         title: '非吸收性外科缝针PF-1478',
-        price: 59,
-        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/58.png'
+        price: 59.00,
+        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/59.png'
       },
       {
         title: '非吸收性外科缝针PF-1408',
-        price: 145,
-        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/5.png'
+        price: 145.00,
+        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/7.png'
       },
       {
         title: '非吸收性外科缝针PF-147ds8',
         price: 1459,
-        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/53.png'
+        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/51.png'
       },
       {
         title: '非吸收性外科缝针PF-1478',
         price: 59,
-        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/58.png'
+        cover: '//qb-img.qiushibaike.com/yuedu_img_res/touch/56.png'
       },
     ],
   },
