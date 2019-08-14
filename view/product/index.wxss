@@ -1,75 +1,88 @@
 .product-info {
-    background-color: #ffffff;
-    border-top: 1rpx solid #D9D9D9;
-    border-bottom: 1rpx solid #D9D9D9;
-    padding: 10px;
+  background-color: #fff;
+  padding: 10px;
 }
+
+.product-banner {
+  height: 750rpx;
+}
+
 .product-info-name {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }
+
 .product-info-price {
-    color: #c81623;
-    font-size: 16px;
-    margin-top: 5px;
-    margin-left: -2px;
+  color: #c81623;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: -2px;
 }
+
 .product-detail {
-    background-color: #ffffff;
+  background-color: #fff;
 }
+
 .footer-cart {
-    float: left;
-    width: 20%;
-    height: 50px;
-    color: #7A7E83;
-    text-align: center;
-    background-color: #ffffff;
+  float: left;
+  width: 20%;
+  height: 50px;
+  color: #7a7e83;
+  text-align: center;
+  background-color: #fff;
 }
+
 .footer-cart:after {
-    content: " ";
-    position: absolute;
-    width: 20%;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    border-right: 1rpx solid #D9D9D9;
-    color: #D9D9D9;
+  content: " ";
+  position: absolute;
+  width: 20%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-right: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
 }
+
 .footer-icon {
-    position: relative;
-    height: 25px;
-    margin-top: 5px;
+  position: relative;
+  height: 25px;
+  margin-top: 5px;
 }
+
 .footer-icon-image {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
+
 .footer-favor {
-    float: left;
-    width: 20%;
-    height: 50px;
-    color: #7A7E83;
-    text-align: center;
-    background-color: #ffffff;
+  float: left;
+  width: 20%;
+  height: 50px;
+  color: #7a7e83;
+  text-align: center;
+  background-color: #fff;
 }
+
 .footer-add-cart {
-    float: left;
-    width: 30%;
-    height: 50px;
-    line-height: 50px;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #FF9301;
+  float: left;
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff9301;
 }
+
 .footer-buy {
-    float: left;
-    width: 30%;
-    height: 50px;
-    line-height: 50px;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #c81623;
+  float: left;
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: #c81623;
 }

@@ -1,10 +1,10 @@
 <import src="/component/quantity/index.wxml" />
 <view class="container">
   <view class="header"></view>
-  <view class="page-section page-section-spacing swiper">
-    <swiper indicator-dots="true" indicator-active-color="#c81623" autoplay="false" interval="8000" duration="500">
-      <swiper-item wx:for="{{banner_list}}" wx:for-item="banner" wx:key="{{banner.banner_id}}">
-        <image src="{{banner.banner_image}}" mode="aspectFill" />
+  <view class="swiper">
+    <swiper class="product-banner" indicator-dots="true" indicator-active-color="#c81623" autoplay="false" interval="8000" duration="500">
+      <swiper-item wx:for="{{product_image_list}}" wx:for-item="banner"  wx:key="{{banner.banner_id}}">
+        <image class="product-banner" src="{{banner}}" mode="aspectFill" />
       </swiper-item>
     </swiper>
   </view>
@@ -12,12 +12,9 @@
     <view class="product-info-name">{{product_name}}</view>
     <view class="product-info-price">￥{{product_price}}</view>
   </view>
-  <view class="weui-cells weui-cells_after-title margin-top">
+  <view class="">
     <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">已选：{{product_quantity.quantity}}个</view>
-    </view>
-    <view class="weui-media-box weui-media-box_appmsg" style="height: 33px;">
-      <template is="zan-quantity" data="{{ ...product_quantity, componentId: 'product_quantity' }}" />
     </view>
   </view>
   <view class="weui-tab margin-top">

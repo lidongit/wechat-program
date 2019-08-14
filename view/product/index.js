@@ -20,22 +20,14 @@ Page(Object.assign({}, {
     product_id: '',
     product_name: '',
     product_price: 0.00,
-    product_image: [],
     product_image_list: [],
-    product_content: [],
-    cart_count: []
   },
-  onUnload: function() {
-
-  },
-  onLoad: function(option) {
+  onLoad: function() {
     this.setData({
       product_id: 1,
-      product_name: '非吸收性外科缝针PF-1408',
+      product_name: '非吸收性外科缝针PF-1408，补水补血精华，75ml，保湿收毛孔',
       product_price: 15567.00,
-      product_image: JSON.parse(data.product_image),
-      product_image_list: product_image_list,
-      product_content: htmlToWxml.html2json(data.product_content)
+      product_image_list: ['//qb-img.qiushibaike.com/yuedu_img_res/touch/4.png', '//qb-img.qiushibaike.com/yuedu_img_res/touch/21.png', '//qb-img.qiushibaike.com/yuedu_img_res/touch/3.png'],
     });
   },
   onReady: function() {
